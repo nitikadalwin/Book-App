@@ -18,7 +18,7 @@ const Star = ({ filled, onClick }) => (
   </svg>
 );
 const BCAppDashboard = () => {
-  const [books, setBooks] = useState([]); //list of books
+  const [book, setBooks] = useState([]); //list of books
   const [ratings, setRatings] = useState({}); //user to rate the books
   const [avgRatings, setAvgRatings] = useState({}); //average rating per book
   const [userName, setUserName] = useState("");
