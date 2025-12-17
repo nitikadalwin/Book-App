@@ -25,6 +25,7 @@ const BCAppDashboard = () => {
   const [searchTerm, setSearchTerm] = useState(""); //serching the input state
   const navigate = useNavigate();
   const auth = getAuth();
+  //Jiljo the ratings are not working properly-Amil
   //Fetching Books from Firebase CloudStore
   useEffect(() => {
     const fetchBooks = async () => {
